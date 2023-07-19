@@ -10,24 +10,8 @@
 <body>
     <h1>Tydzień 2</h1>
     <hr>
-    <div class="app">
-        <div class="timeBoxEditor inactive">
-            <label>Co robisz?<input disabled value="Nauka" type="text"></label><br>
-            <label>Ile minut?<input disabled value="25" type="number"></label><br>
-            <button disabled>Zacznij</button>
-        </div>
-        <div class="timeBox">
-            <h1>Nauka</h1>
-            <div id="root"></div>
-            <div class="progressBar">
-                <div style="width: 10%"></div>
-            </div>
-            <button disabled>Start</button>
-            <button>Stop</button>
-            <button>Pause</button>
-            Liczba przerw: 2
-        </div>
-    </div>
+
+    <div id="root"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
